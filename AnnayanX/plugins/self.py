@@ -4,7 +4,7 @@ from .. import *
 from pyrogram import filters
 
 
-@app.on_message(commandz(["😋🥰", "op", "wow", "super", "😋😍"])
+@app.on_message(commandz(["😋🥰", "op", "wow", "sd" "super", "😋😍"])
     & filters.private & filters.me)
 async def self_media(client, message):
     replied = message.reply_to_message

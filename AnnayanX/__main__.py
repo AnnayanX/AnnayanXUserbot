@@ -3,7 +3,7 @@ import importlib
 
 from pytgcalls import idle
 
-from . import Daxx as client
+from . import AnnayanX as client
 from .import PLUGINS, log
 from .plugins import ALL_PLUGINS
 
@@ -15,7 +15,7 @@ async def aditya():
     log.info("Importing all plugins ...")
     for all_plugin in ALL_PLUGINS:
         imported_plugin = importlib.import_module(
-            "Daxx.plugins." + all_plugin)
+            "AnnayanX.plugins." + all_plugin)
         if (hasattr(imported_plugin, "__NAME__"
            ) and imported_plugin.__NAME__):
             imported_plugin.__NAME__ = imported_plugin.__NAME__
@@ -26,7 +26,7 @@ async def aditya():
         log.info(f">> Importing: {all_plugin}.py")
     log.info(">> Successfully Imported All Plugins.")
     await asyncio.sleep(1)
-    log.info("Userbot is Now Ready to Use !")
+    log.info("AnnayanX Userbot is Now Ready to Use !")
     await idle()
 
 if __name__ == "__main__":

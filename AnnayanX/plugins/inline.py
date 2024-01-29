@@ -18,15 +18,15 @@ async def help_menu_logo(answer):
             photo_url=f"{thumb_image}",
             title="🥀 Help Menu ✨",
             thumb_url=f"{thumb_image}",
-            description=f"🥀 Open Help Menu Of Daxx-Userbot ✨...",
+            description=f"🥀 Open Help Menu Of AnnayanXUserbot ✨...",
             caption=f"""
 **🥀 Welcome To Help Menu Of
-Daxx Userbot » {__version__} ✨...
+AnnayanX Userbot » {__version__} ✨...
 
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [DAXX](https://t.me/iam_daxx).**
+🌷Powered By : [AnnayanX](https://t.me/AnnayanX).**
             """,
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -41,12 +41,12 @@ async def help_menu_text(answer):
             title="🥀 Help Menu ✨",
             input_message_content=InputTextMessageContent(f"""
 **🥀 Welcome To Help Menu Of
-Daxx Userbot » {__version__} ✨...
+AnnayanX Userbot » {__version__} ✨...
 
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [DAXX](https://t.me/iam_daxx).**""",
+🌷Powered By : [AnnayanX](https://t.me/AnnayanX).**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),

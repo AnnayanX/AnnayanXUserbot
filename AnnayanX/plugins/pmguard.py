@@ -8,7 +8,7 @@ from .. import *
 from ..modules.data import approve, disapprove, is_approved
 
 MSG_PERMIT = """
-PM_SECURITY Daxx-USERBOT
+PM_SECURITY 𝐀𝐧𝐧𝐚𝐲𝐚𝐧𝐗 𝐔𝐬𝐞𝐫𝐛𝐨𝐭
 
 {}
 ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂

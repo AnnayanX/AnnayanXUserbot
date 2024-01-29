@@ -32,29 +32,29 @@ try:
     LOGGER.info("Connecting To Mongo Database ...")
     MONGO_DB_URL = Config.MONGO_DATABASE
     _mongo_async_ = AsyncIOMotorClient(MONGO_DB_URL)
-    mongodb = _mongo_async_.Daxx
+    mongodb = _mongo_async_.AnnayanX
     LOGGER.info("Succesfully Connected.")
 except Exception as e:
     print(f"Error: {e}")
     LOGGER.error("Failed To Connect To Your Mongo Database.")
     exit()
 
-class Daxx(Client, PyTgCalls):
+class AnnayanX(Client, PyTgCalls):
     def __init__(self):
         self.app = Client(
-            name = "Daxx",
+            name = "AnnayanX",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             session_string = Config.STRING_SESSION,
         )
         self.ass = Client(
-            name = "Daxx",
+            name = "AnnayanX",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             session_string = Config.SESSION_STRING,
         )
         self.bot = Client(
-            name = "iam_daxx",
+            name = "AnnayanX",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             bot_token = Config.BOT_TOKEN,
